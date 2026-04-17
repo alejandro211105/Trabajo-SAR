@@ -1,0 +1,27 @@
+# Tests básicos - término único
+españa	34
+madrid	14
+argentina	20
+futbol	3
+cine	16
+historia	42
+universidad	25
+wikipedia	5
+# Tests AND implícito (dos términos)
+españa madrid	9
+argentina cine	6
+futbol historia	3
+# Tests NOT
+NOT españa	66
+NOT madrid	86
+# Tests AND + NOT
+españa NOT madrid	25
+# Tests posicionales - frases entre comillas
+"civil war"	1
+"de la"	89
+"real madrid"	3
+"nacido en"	5
+"premio nobel"	2
+# Combinación frase + término suelto
+"de la" historia	42
+"real madrid" futbol	1
